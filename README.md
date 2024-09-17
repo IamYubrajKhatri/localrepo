@@ -18,6 +18,7 @@ Master and main branch are different
 (git branch -M main) with this code we renamed the master branch to main
 (git push -u origin main) finally it pushed to origin that means its now online in github.com
 -u means it is the upstram .from next time we can use only the code(git push).If we want to work long time in a same projekt it is  very useful.
+to delete the file we use the code (git rm (file path))then we have to commit and finally pushed.
 
 
 
