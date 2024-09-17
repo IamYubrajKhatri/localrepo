@@ -25,7 +25,10 @@ to delete the file we use the code (git rm (file path))then we have to commit an
 (git branch -d (NAME) ) to delete a branch
 (git diff (Branch name)) to see difference with that branch
 (git pull origin main)used to fetch and download content from a remote repo and immidetely update to local repo
-
+(git reset (file name))to go to previous version before add command or simply (git reset) for multiple reset
+(git reset Head~1)to go one commit before
+(git reset <-commited hash>)to go multiple commited before
+(git reser --hard <-commited hash>)same as above but it shows the changes also in vscode.
 
 
 
