@@ -2,7 +2,7 @@ Guide to push  file or folder to github from Local  to Online.
 first create a folder using Terminal in visual studio.(mkdir ABC).
 then creat html or css ar any file of our projekt.
 there will be no hidden folder at first (.git)(ls -a) when creating object local.
-therefore we have to inilitize it using (code git init)
+therefore we have to inilitize it using code ( git init)
 now to show hidden file we write(ls -a) and it shows the file name(.git)
 After making change in Visual Studio  code it shows U in green color it means untracked files.
 to see untracked files we write or to see status what is happening (git status)
@@ -15,7 +15,7 @@ To push the code to online we use the following codes
 we can verify if its pushed(git remote -v)
 we can also check the branch(git branch)by default branch name is Master
 Master and main branch are different
-(git branch -M main) with this code we renamed the master branch to main
+(git branch -M main) with this code we renamed the master branch to mains
 (git push -u origin main) finally it pushed to origin that means its now online in github.com
 -u means it is the upstram .from next time we can use only the code(git push).If we want to work long time in a same projekt it is  very useful.
 to delete the file we use the code (git rm (file path))then we have to commit and finally pushed.
